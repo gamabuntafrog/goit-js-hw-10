@@ -11,10 +11,7 @@ const Theme = {
 };
 // конст понятно чего
 
-function createCard(menuData) {
-return menuData.map(card).join('')
-}
-
+function createCard(data) {return card(data)}
 container.insertAdjacentHTML('beforeend', createCard(menuData));
 // создание разметки
 
